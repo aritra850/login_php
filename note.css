@@ -1,0 +1,109 @@
+body{
+    padding:0;
+    margin:0;
+    text-align: center;
+    background-color: blueviolet;
+
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    background-color: black;
+    top:0;
+    position:fixed;
+    width:96%;
+    margin-left:30px;
+    border-radius: 10px;
+    border:2px solid cyan;
+}
+.navlink{
+    text-decoration: none;
+    color:white;
+    width:100px;
+    height:20px;
+    margin-top: 10px;
+    margin-right:50px;
+    padding:10px 10px 10px 10px;
+    border:2px solid white;
+    border-radius: 20px;
+}
+h1{
+    color:cyan;
+    width:200px;
+    /* height: 20px; */
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border:2px solid cyan;
+    border-radius: 10px;
+}
+.navlink:hover{
+    border: 2px solid gold;
+    color: gold;
+    background-color: gray;
+}
+#container{
+    width:96%;
+    border:2px solid gold;
+    margin:auto;
+    margin-top:80px;
+    border-radius: 10px;
+}
+#notetitle,#notedesc{
+    margin:10px;
+    color:gold;
+}
+#title{
+    border:2px solid black;
+    border-radius: 10px;
+    width:70%;
+    height:50px;
+    text-align: center;
+    font-size: 25px;
+}
+#desc{
+    border:2px solid black;
+    border-radius: 10px;
+    width:70%;
+    font-size: 20px;
+}
+#submit{
+    border:2px solid aqua;
+    background-color: blue;
+    border-radius: 20px;
+    color:aqua;
+    margin:10px;
+    width:100px;
+    height:40px;
+    cursor: pointer;
+}
+#submit:hover{
+    border: 2px solid blue;
+    background-color: aqua;
+    color:blue;
+}
+u{
+    border:2px solid orangered;
+    color:orangered;
+    border-radius: 10px;
+    padding:5px;
+    text-decoration: none;
+}
+#head th{
+    border:2px solid blue;
+    border-radius: 10px;
+    padding:10px;
+}
+#row th{
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding:10px;
+}
+#table{
+    border-radius: 10px;
+    margin:auto;
+    margin-top:20px;
+    width:96%;
+}

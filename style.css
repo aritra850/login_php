@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background-color: blueviolet;
+}
+#container{
+    height:450px;
+    width:50%;
+    margin:auto;
+    padding: 50px;
+    border:5px solid red;
+    /* overflow: hidden; */
+    background-color: tomato;
+    margin-top:50px;
+    border-radius: 10px;
+    top:60px;
+    position:relative;
+}
+#frame{
+    height:500px;
+    width:100%;
+    left:0;
+    top:0px;
+    margin-top:0px;
+    position: relative;
+    /* display:flex; */
+    background-color: tomato;
+}
+#login{
+    height:490px;
+    width:100%;
+    /* border:2px solid blue; */
+    padding:20px;
+    margin:auto;
+    margin-top: 5px;
+    /* left:0;
+    top:0;
+    position:relative; */
+    /* display: none; */
+}
+#signup{
+    height:490px;
+    width:100%;
+    /* border:2px solid blue; */
+    padding:20px;
+    margin:auto;
+    margin-bottom: 20px;
+    padding-top:0px;
+    /* left:0;
+    top:0;
+    position:relative; */
+    /* display: none; */
+}
+#frame input{
+    width:70%;
+    height:50px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#frame .submit{
+    width:90%;
+    color: antiquewhite;
+    background-color: blue;
+    border-radius: 10px;;
+    cursor: pointer;
+}
+#frame .submit:hover{
+    color:blue;
+    background-color: rgb(113, 83, 245);
+    border:2px solid blue;
+}
+
+#frame h1{
+    font-size: 30px;
+    letter-spacing: 10px;
+    color:rgb(0, 132, 255);
+    border:2px solid rgb(2, 2, 27);
+    background-color: rgb(19, 6, 49);
+    width:90%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom:20px;
+}
